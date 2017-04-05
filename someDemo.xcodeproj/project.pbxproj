@@ -12,6 +12,8 @@
 		96409D411E948CC1002E1889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96409D3F1E948CC1002E1889 /* Main.storyboard */; };
 		96409D431E948CC1002E1889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96409D421E948CC1002E1889 /* Assets.xcassets */; };
 		96409D461E948CC1002E1889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96409D441E948CC1002E1889 /* LaunchScreen.storyboard */; };
+		96409D511E948D0B002E1889 /* LinkedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96409D501E948D0B002E1889 /* LinkedPicker.swift */; };
+		96409D531E948E5B002E1889 /* address.txt in Resources */ = {isa = PBXBuildFile; fileRef = 96409D521E948E5B002E1889 /* address.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		96409D421E948CC1002E1889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96409D451E948CC1002E1889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96409D471E948CC1002E1889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96409D501E948D0B002E1889 /* LinkedPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedPicker.swift; sourceTree = "<group>"; };
+		96409D521E948E5B002E1889 /* address.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = address.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +60,22 @@
 			children = (
 				96409D3B1E948CC1002E1889 /* AppDelegate.swift */,
 				96409D3D1E948CC1002E1889 /* ViewController.swift */,
+				96409D4F1E948CEB002E1889 /* 地址选择 */,
 				96409D3F1E948CC1002E1889 /* Main.storyboard */,
 				96409D421E948CC1002E1889 /* Assets.xcassets */,
 				96409D441E948CC1002E1889 /* LaunchScreen.storyboard */,
 				96409D471E948CC1002E1889 /* Info.plist */,
 			);
 			path = someDemo;
+			sourceTree = "<group>";
+		};
+		96409D4F1E948CEB002E1889 /* 地址选择 */ = {
+			isa = PBXGroup;
+			children = (
+				96409D521E948E5B002E1889 /* address.txt */,
+				96409D501E948D0B002E1889 /* LinkedPicker.swift */,
+			);
+			name = "地址选择";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +141,7 @@
 				96409D461E948CC1002E1889 /* LaunchScreen.storyboard in Resources */,
 				96409D431E948CC1002E1889 /* Assets.xcassets in Resources */,
 				96409D411E948CC1002E1889 /* Main.storyboard in Resources */,
+				96409D531E948E5B002E1889 /* address.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +154,7 @@
 			files = (
 				96409D3E1E948CC1002E1889 /* ViewController.swift in Sources */,
 				96409D3C1E948CC1002E1889 /* AppDelegate.swift in Sources */,
+				96409D511E948D0B002E1889 /* LinkedPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
