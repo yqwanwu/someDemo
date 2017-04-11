@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		96195F6E1E9CB307008ACB33 /* FileDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96195F6D1E9CB307008ACB33 /* FileDownloader.swift */; };
+		96195F711E9CB381008ACB33 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96195F701E9CB381008ACB33 /* CircleProgressView.swift */; };
 		96409D3C1E948CC1002E1889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96409D3B1E948CC1002E1889 /* AppDelegate.swift */; };
 		96409D3E1E948CC1002E1889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96409D3D1E948CC1002E1889 /* ViewController.swift */; };
 		96409D411E948CC1002E1889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96409D3F1E948CC1002E1889 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		96195F6D1E9CB307008ACB33 /* FileDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDownloader.swift; sourceTree = "<group>"; };
+		96195F701E9CB381008ACB33 /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
 		96409D381E948CC1002E1889 /* someDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = someDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96409D3B1E948CC1002E1889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96409D3D1E948CC1002E1889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 			name = "断点下载";
 			sourceTree = "<group>";
 		};
+		96195F6F1E9CB36A008ACB33 /* 圆形进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				96195F701E9CB381008ACB33 /* CircleProgressView.swift */,
+			);
+			name = "圆形进度条";
+			sourceTree = "<group>";
+		};
 		96409D2F1E948CC1002E1889 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +80,7 @@
 			children = (
 				96409D3B1E948CC1002E1889 /* AppDelegate.swift */,
 				96409D3D1E948CC1002E1889 /* ViewController.swift */,
+				96195F6F1E9CB36A008ACB33 /* 圆形进度条 */,
 				96195F6C1E9CB2ED008ACB33 /* 断点下载 */,
 				96409D4F1E948CEB002E1889 /* 地址选择 */,
 				96409D3F1E948CC1002E1889 /* Main.storyboard */,
@@ -165,6 +176,7 @@
 			files = (
 				96409D3E1E948CC1002E1889 /* ViewController.swift in Sources */,
 				96409D3C1E948CC1002E1889 /* AppDelegate.swift in Sources */,
+				96195F711E9CB381008ACB33 /* CircleProgressView.swift in Sources */,
 				96195F6E1E9CB307008ACB33 /* FileDownloader.swift in Sources */,
 				96409D511E948D0B002E1889 /* LinkedPicker.swift in Sources */,
 			);
