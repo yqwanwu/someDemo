@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var starView: StarMarkView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        starView.sadImg = #imageLiteral(resourceName: "p4.6.1.1-评价-灰.png")
+        starView.likeImg = #imageLiteral(resourceName: "p4.6.1.1-评价-红.png")
     }
 
     override func didReceiveMemoryWarning() {

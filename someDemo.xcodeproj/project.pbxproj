@@ -16,6 +16,10 @@
 		96409D461E948CC1002E1889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96409D441E948CC1002E1889 /* LaunchScreen.storyboard */; };
 		96409D511E948D0B002E1889 /* LinkedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96409D501E948D0B002E1889 /* LinkedPicker.swift */; };
 		96409D531E948E5B002E1889 /* address.txt in Resources */ = {isa = PBXBuildFile; fileRef = 96409D521E948E5B002E1889 /* address.txt */; };
+		96610A521ED5293D00C117D6 /* p4.6.1.1-评价-红@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96610A501ED5293D00C117D6 /* p4.6.1.1-评价-红@2x.png */; };
+		96610A531ED5293D00C117D6 /* p4.6.1.1-评价-灰@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96610A511ED5293D00C117D6 /* p4.6.1.1-评价-灰@2x.png */; };
+		96610A561ED5299C00C117D6 /* StarMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96610A551ED5299C00C117D6 /* StarMarkView.swift */; };
+		96610A581ED532A400C117D6 /* TimerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96610A571ED532A400C117D6 /* TimerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		96409D471E948CC1002E1889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96409D501E948D0B002E1889 /* LinkedPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedPicker.swift; sourceTree = "<group>"; };
 		96409D521E948E5B002E1889 /* address.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = address.txt; sourceTree = "<group>"; };
+		96610A501ED5293D00C117D6 /* p4.6.1.1-评价-红@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p4.6.1.1-评价-红@2x.png"; sourceTree = "<group>"; };
+		96610A511ED5293D00C117D6 /* p4.6.1.1-评价-灰@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p4.6.1.1-评价-灰@2x.png"; sourceTree = "<group>"; };
+		96610A551ED5299C00C117D6 /* StarMarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarMarkView.swift; sourceTree = "<group>"; };
+		96610A571ED532A400C117D6 /* TimerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,8 @@
 			children = (
 				96409D3B1E948CC1002E1889 /* AppDelegate.swift */,
 				96409D3D1E948CC1002E1889 /* ViewController.swift */,
+				96610A571ED532A400C117D6 /* TimerExtension.swift */,
+				96610A541ED5294500C117D6 /* 星级评分 */,
 				96195F6F1E9CB36A008ACB33 /* 圆形进度条 */,
 				96195F6C1E9CB2ED008ACB33 /* 断点下载 */,
 				96409D4F1E948CEB002E1889 /* 地址选择 */,
@@ -98,6 +108,16 @@
 				96409D501E948D0B002E1889 /* LinkedPicker.swift */,
 			);
 			name = "地址选择";
+			sourceTree = "<group>";
+		};
+		96610A541ED5294500C117D6 /* 星级评分 */ = {
+			isa = PBXGroup;
+			children = (
+				96610A501ED5293D00C117D6 /* p4.6.1.1-评价-红@2x.png */,
+				96610A511ED5293D00C117D6 /* p4.6.1.1-评价-灰@2x.png */,
+				96610A551ED5299C00C117D6 /* StarMarkView.swift */,
+			);
+			name = "星级评分";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +184,8 @@
 				96409D431E948CC1002E1889 /* Assets.xcassets in Resources */,
 				96409D411E948CC1002E1889 /* Main.storyboard in Resources */,
 				96409D531E948E5B002E1889 /* address.txt in Resources */,
+				96610A531ED5293D00C117D6 /* p4.6.1.1-评价-灰@2x.png in Resources */,
+				96610A521ED5293D00C117D6 /* p4.6.1.1-评价-红@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +197,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				96409D3E1E948CC1002E1889 /* ViewController.swift in Sources */,
+				96610A561ED5299C00C117D6 /* StarMarkView.swift in Sources */,
 				96409D3C1E948CC1002E1889 /* AppDelegate.swift in Sources */,
+				96610A581ED532A400C117D6 /* TimerExtension.swift in Sources */,
 				96195F711E9CB381008ACB33 /* CircleProgressView.swift in Sources */,
 				96195F6E1E9CB307008ACB33 /* FileDownloader.swift in Sources */,
 				96409D511E948D0B002E1889 /* LinkedPicker.swift in Sources */,
@@ -305,6 +329,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8RFW2TW3Q2;
 				INFOPLIST_FILE = someDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.test.someDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -318,6 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8RFW2TW3Q2;
 				INFOPLIST_FILE = someDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.test.someDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
