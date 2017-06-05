@@ -16,6 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         starView.sadImg = #imageLiteral(resourceName: "p4.6.1.1-评价-灰.png")
         starView.likeImg = #imageLiteral(resourceName: "p4.6.1.1-评价-红.png")
+        starView.isFullStar = true
+        starView.score = 3.5
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +25,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        print(starView.score)
+    }
 
 }
 
