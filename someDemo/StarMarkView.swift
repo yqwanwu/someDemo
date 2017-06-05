@@ -132,9 +132,9 @@ class StarMarkView: UIView {
         
         var w = (self.frame.width - margin * CGFloat(starCount - 1)) / CGFloat(starCount)
         w = w < self.frame.height ? w : self.frame.height
-        let y = (self.frame.height - w) / 2
+//        let y = (self.frame.height - w) / 2
         for i in 0..<starCount {
-            let f = CGRect(x: CGFloat(i) * (margin + w), y: y, width: w, height: self.frame.height)
+            let f = CGRect(x: CGFloat(i) * (margin + w), y: 0, width: w, height: self.frame.height)
             sadStarList[i].frame = f
             likeStarList[i].frame = f
         }
